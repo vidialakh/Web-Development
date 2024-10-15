@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Validation
+        </title>
+
+    </head>
+    <body>
+        <h2>Login Form</h2>
+    <form id="loginForm">
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Age Field -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <button type="submit" onclick="validate(event)">Submit</button>
+    </form>
+
+    <!-- Message Box -->
+    <p id="message"></p>
+    <script src="script.js"></script>
+    </body>
+</html>

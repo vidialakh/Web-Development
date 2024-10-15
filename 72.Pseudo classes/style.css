@@ -25,7 +25,7 @@ ul > li {
 
 /* Sibling Selector */
 h1 + p {
-    background-color: #161B22;
+    background-color: #2aac3c;
     padding: 10px;
     border-radius: 5px;
 }
@@ -37,7 +37,7 @@ ul li:hover {
 
 /* :nth-child(n) Pseudo-class */
 ul li:nth-child(3) {
-    background-color: #21262D;
+    background-color: #0b6bf1;
 }
 
 /* :not(selector) Pseudo-class */
